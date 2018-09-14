@@ -1,0 +1,32 @@
+# Site settings
+title: nyspi2pcore
+email: gt@nyspi.columbia.edu
+url: ""
+baseurl: ""
+description: 
+    Preclynical two-photon Imaging Core
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Gergely Turi
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: booking
+    url: https://calendar.google.com/calendar/embed?src=glq09ii44hitdbq8fkohuohmms%40group.calendar.google.com&ctz=America%2FNew_York
+#   - title: facebook
+#     url:
+#  - title: stack-overflow
+#   url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: https://github.com/IronSummitMedia/startbootstrap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
