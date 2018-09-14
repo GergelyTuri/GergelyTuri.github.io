@@ -1,6 +1,6 @@
 # This is a website for Preclinical Imaging Facility.
 
-## View site: https://nyspi2pcore.gitlab.io/
+## View site: https://https://gergelyturi.github.io/
 
 -----
 Nyspi 2p core
