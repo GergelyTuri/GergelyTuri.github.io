@@ -1,9 +1,8 @@
-# This is a website for Preclinical Imaging Facility.
+# This is the website for Preclinical Imaging Core (PIC) at New York State Psychiatric Institue (NYSPI).
 
 ## View site: https://gergelyturi.github.io/
 
 -----
-Nyspi 2p core
 
 Theme: [Grayscale](https://github.com/jeromelachaud/grayscale-theme/)
 Original source: [Jekyll Themes](http://themes.jekyllrc.org/grayscale/)
