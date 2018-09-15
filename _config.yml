@@ -4,7 +4,7 @@ email: gt2253@nyspi.columbia.edu
 url: ""
 baseurl: ""
 description: 
-    Preclynical two-photon Imaging Core
+    Preclynical Imaging Core
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -18,8 +18,8 @@ footer: Gergely Turi
 social:
   - title: booking
     url: https://calendar.google.com/calendar/embed?src=glq09ii44hitdbq8fkohuohmms%40group.calendar.google.com&ctz=America%2FNew_York
-#   - title: facebook
-#     url:
+  - title: slack
+    url: https://2pcore.slack.com
 #  - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket
