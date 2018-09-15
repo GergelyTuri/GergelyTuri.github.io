@@ -146,6 +146,12 @@ a:focus {
     -o-background-size: cover;
 }
 
+.bio {
+    text-align: center;
+    color: #fff;
+    background: url({{ site.baseurl }}/img/tracing.png);
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
