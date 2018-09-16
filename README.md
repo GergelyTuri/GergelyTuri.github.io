@@ -6,6 +6,7 @@
 
 Theme: [Grayscale](https://github.com/jeromelachaud/grayscale-theme/)
 Original source: [Jekyll Themes](http://themes.jekyllrc.org/grayscale/)
+Video embedding: [Video embed](https://github.com/nathancy/jekyll-embed-video)
 
 # Configurations
 
