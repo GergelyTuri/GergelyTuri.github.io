@@ -283,7 +283,7 @@ a:focus {
 }
 
 .equipment-section {
-    width: 80%;
+    width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url({{ site.baseurl }}/img/tracing.png) no-repeat center center scroll;
