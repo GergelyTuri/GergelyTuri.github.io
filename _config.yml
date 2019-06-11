@@ -23,7 +23,8 @@ social:
     url: https://calendar.google.com/calendar/embed?src=glq09ii44hitdbq8fkohuohmms%40group.calendar.google.com&ctz=America%2FNew_York
   - title: slack
     url: https://2pcore.slack.com
-  - twitter: https://twitter.com/gergelyturi1  
+  - title: twitter 
+    url: https://twitter.com/gergelyturi1  
 #  - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket
