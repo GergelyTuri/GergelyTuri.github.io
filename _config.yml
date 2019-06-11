@@ -10,6 +10,9 @@ description:
 color:
   primary-dark: '#000000'
   links: '#219ab3'
+  
+# Google services
+google_analytics: UA-141813446-1
 
 # Footer settings
 footer: Gergely Turi
@@ -21,7 +24,6 @@ social:
   - title: slack
     url: https://2pcore.slack.com
   - twitter: https://twitter.com/gergelyturi1  
-  - analytics-id: "UA-141813446-1"
 #  - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket
