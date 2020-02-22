@@ -298,10 +298,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: {
-        url({{ site.baseurl }}/img/CA1_vg1_.png) no-repeat center center scroll;
-        opacity: 0.3;
-    }
+    background: url({{ site.baseurl }}/img/CA1_vg1_.png) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
