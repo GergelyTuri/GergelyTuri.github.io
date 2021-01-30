@@ -272,7 +272,7 @@ a:focus {
 
 .people-section {
     width: 100%;
-    padding: 50px 5px 10px;
+    padding: 50px 0;
     color: #fff;
     background: url({{ site.baseurl }}/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
@@ -284,7 +284,7 @@ a:focus {
 
 .equipment-section {
     width: 100%;
-    padding: 50px 5px 10px;
+    padding: 50px 0;
     color: #fff;
     background: url({{ site.baseurl }}/img/tracing.png) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
