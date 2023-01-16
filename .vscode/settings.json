@@ -1,0 +1,20 @@
+{
+    "settings": {
+        "git.autofetch": true,
+        "editor.inlineSuggest.enabled": true,
+        "python.analysis.typeCheckingMode": "strict",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.formatOnSaveTimeout": 1000,
+        "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#ed4ce0",
+        },
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true
+}

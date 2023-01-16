@@ -4,7 +4,13 @@ email: gt2253@nyspi.columbia.edu
 url: ""
 baseurl: ""
 description: 
-    Preclynical Imaging Core
+    Preclinical Imaging Core
+address: 
+  "1051 Riverside Drive
+  Office - Kolb Annex, Room: 815
+  New York
+  NY, 10032
+  T: 646-774-5027" 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
