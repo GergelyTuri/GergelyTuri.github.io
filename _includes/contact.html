@@ -1,20 +1,23 @@
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>1051 Riverside drive</p>
-                <p>Kolb building, 4th floor, room 419</p><p>New York, NY, 10032 </p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                    </li>
-                    {% endfor %}
-                </ul>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.332050221048!2d-73.94298087215122!3d40.84263301261134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f69bde1a2597%3A0x48471e14999704a6!2sNew+York+State+Psychiatric+Institute+-+Kolb+Research+Building%2C+40+Haven+Ave%2C+New+York%2C+NY+10032!5e0!3m2!1sen!2sus!4v1537190281154" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Contact</h2>
+            <p>{{ site.address }}</p>
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+            <ul class="list-inline banner-social-buttons">
+                {% for network in site.social %}
+                <li>
+                    <a href="{{ network.url }}" class="btn btn-default btn-lg"><i
+                            class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title
+                            }}</span></a>
+                </li>
+                {% endfor %}
+            </ul>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.332050221048!2d-73.94298087215122!3d40.84263301261134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f69bde1a2597%3A0x48471e14999704a6!2sNew+York+State+Psychiatric+Institute+-+Kolb+Research+Building%2C+40+Haven+Ave%2C+New+York%2C+NY+10032!5e0!3m2!1sen!2sus!4v1537190281154"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-    </section>
+    </div>
+</section>
