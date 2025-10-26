@@ -1,0 +1,46 @@
+systems:
+  - name: Femtonics ATLAS 3D (in vitro)
+    summary: >
+      Dual-laser 3D system optimized for multi-patch slice recordings in human/murine tissue.
+    highlights:
+      - Dual laser input
+      - Luigs & Neumann micromanipulators
+      - Glutamate uncaging for connectivity & plasticity mapping
+    use_cases:
+      - Synaptic connectivity maps
+      - In vitro plasticity experiments
+    image: /img/femtonics_atlas.jpg
+
+  - name: Bruker Ultima (in vivo)
+    summary: >
+      In vivo two-photon system with SLM/photostimulation support and behavior integration.
+    highlights:
+      - SLM photostimulation (where applicable)
+      - High-NA objectives
+      - Behavior sync and closed-loop capability
+    use_cases:
+      - Cell-type specific imaging and manipulation
+      - State-dependent circuit dynamics
+    image: /img/bruker_ultima.jpg
+
+  - name: Fiber Photometry
+    summary: >
+      Multichannel photometry for neuromodulator sensors (e.g., GRAB-5HT) with synchronized EEG/behavior.
+    highlights:
+      - Multi-wavelength excitation & demodulation
+      - EEG/EMG integration
+      - Open-source analysis pipelines
+    use_cases:
+      - Brain-state neuromodulation
+      - Event-aligned release dynamics
+    image: /img/photometry.jpg
+
+  - name: VR & Behavioral Rigs
+    summary: >
+      Head-fixed and freely moving tasks, including VR navigation and pattern-separation assays.
+    highlights:
+      - Sync to imaging/photometry
+      - Real-time triggers
+    use_cases:
+      - Hippocampal computation during behavior
+    image: /img/vr_rig.jpg

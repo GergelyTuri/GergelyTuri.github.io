@@ -1,0 +1,43 @@
+- role: Postdoctoral Fellow (In Vitro Electrophysiology)
+  status: Open
+  blurb: >
+    Lead multi-patch slice experiments in human and mouse tissue; integrate
+    optogenetics and glutamate uncaging to map connectivity and plasticity.
+  requirements:
+    - PhD in Neuroscience/Physiology/Bioengineering or related field
+    - Extensive experience with patch-clamp (brain slices), data analysis in Python/MATLAB
+    - Record of rigorous, reproducible research and collaborative work
+  nice_to_have:
+    - Experience with multi-patch rigs, Luigs & Neumann manipulators, uncaging
+    - Familiarity with Nextflow/Snakemake pipelines or Suite2p/photometry analysis
+  apply:
+    email: your.name@utsouthwestern.edu
+    subject: "Postdoc Application — Electrophysiology"
+    instructions: >
+      Email CV, 1–2 page research summary, 2–3 references.
+
+- role: Research Assistant II (Systems Neuroscience)
+  status: Open
+  blurb: >
+    Support in vivo imaging/photometry and behavioral assays; maintain rigs and
+    data pipelines; contribute to figure prep and lab ops.
+  requirements:
+    - BSc/MSc in Neuroscience/EE/CS or related; hands-on wet-lab or hardware skills
+    - Basic Python/Matlab; good record-keeping; teamwork mindset
+  apply:
+    email: your.name@utsouthwestern.edu
+    subject: "RA Application — Systems Neuroscience"
+    instructions: >
+      Email CV and a short paragraph on relevant experience.
+
+- role: Graduate/Undergraduate Trainees
+  status: Ongoing
+  blurb: >
+    Rotations and independent projects at the interface of imaging, behavior, and computation.
+  requirements:
+    - Curiosity, reliability, and willingness to learn
+  apply:
+    email: your.name@utsouthwestern.edu
+    subject: "Trainee Inquiry"
+    instructions: >
+      Email CV/transcript (if available) and interests.
