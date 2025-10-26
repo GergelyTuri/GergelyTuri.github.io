@@ -1,10 +1,10 @@
 # Site settings
 title: nyspi2pcore
 email: gt2253@nyspi.columbia.edu
-url: ""
+url: "https://gergelyturi.github.io"
 baseurl: ""
 description: 
-    Preclinical Imaging Core
+    Preclinical Imaging Core at NYSPI focused on two-photon imaging and related neuroscience tools.
 address: 
   "1051 Riverside Drive |
   Office: Kolb Annex, Room: 815 |
