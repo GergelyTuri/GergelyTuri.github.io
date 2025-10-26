@@ -14,13 +14,36 @@ $(window).scroll(function() {
 });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+// Only intercept same-page hash links; allow cross-page navigation
 $(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+    $('a.page-scroll').on('click', function(event) {
+        var href = $(this).attr('href');
+        if (!href) return;
+        // Same-page hash like '#about'
+        if (href.charAt(0) === '#') {
+            var $target = $(href);
+            if ($target.length) {
+                $('html, body').stop().animate({
+                    scrollTop: $target.offset().top
+                }, 1500, 'easeInOutExpo');
+                event.preventDefault();
+            }
+            return;
+        }
+        // If absolute/relative URL with hash but same pathname, smooth scroll
+        try {
+            var a = document.createElement('a');
+            a.href = href;
+            if (a.hash && a.pathname.replace(/\/+$/, '') === location.pathname.replace(/\/+$/, '')) {
+                var $t = $(a.hash);
+                if ($t.length) {
+                    $('html, body').stop().animate({
+                        scrollTop: $t.offset().top
+                    }, 1500, 'easeInOutExpo');
+                    event.preventDefault();
+                }
+            }
+        } catch (e) { /* fall through */ }
     });
 });
 
@@ -35,9 +58,10 @@ $("a").mouseup(function(){
     $(this).blur();
 })
 
-// Google Maps Scripts
-// When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
+// Google Maps Scripts (guarded: only run if maps is available)
+if (window.google && google.maps) {
+    google.maps.event.addDomListener(window, 'load', init);
+}
 
 function init() {
     // Basic options for a simple Google Map
