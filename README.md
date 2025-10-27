@@ -22,6 +22,7 @@ Video embedding: [Jekyll Embed Video](https://github.com/nathancy/jekyll-embed-v
 - Requirements: Ruby, Bundler, Jekyll.
 - Install tools: `gem install bundler jekyll`
 - Run locally:
+  - Quick start: `bin/dev` (or on Windows PowerShell: `bin/dev.ps1`)
   - With Bundler (preferred): `bundle exec jekyll serve`
   - Without Gemfile: `jekyll serve`
 - Open: http://127.0.0.1:4000/
