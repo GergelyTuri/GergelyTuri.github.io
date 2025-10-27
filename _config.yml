@@ -1,16 +1,16 @@
 # Site settings
-title: nyspi2pcore
-email: gt2253@nyspi.columbia.edu
-url: ""
+title: Gergely Turi
+email: gergely.turi@utsouthwestern.edu
+url: "https://gergelyturi.github.io"
 baseurl: ""
 description: 
-    Preclinical Imaging Core
+    Gergely Turi's Personal Website
 address: 
-  "1051 Riverside Drive |
-  Office: Kolb Annex, Room: 815 |
-  New York |
-  NY, 10032 |
-  T: 646-774-5027" 
+  "Peter O'Donnell Jr. Brain Institute | 6121 Harry Hines Blvd |
+  Office: NS 4.216 |
+  Dallas |
+  TX, 75390 |
+  " 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -25,12 +25,14 @@ footer: Gergely Turi
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: booking
-    url: https://calendar.google.com/calendar/embed?src=glq09ii44hitdbq8fkohuohmms%40group.calendar.google.com&ctz=America%2FNew_York
-  - title: slack
-    url: https://2pcore.slack.com
-  - title: twitter 
-    url: https://twitter.com/gergelyturi1  
+  - title: linkedin
+    url: https://www.linkedin.com/in/gergely-turi-57028830/
+  # - title: booking
+  #   url: https://calendar.google.com/calendar/embed?src=glq09ii44hitdbq8fkohuohmms%40group.calendar.google.com&ctz=America%2FNew_York
+  # - title: slack
+  #   url: https://2pcore.slack.com
+  # - title: twitter 
+  #   url: https://twitter.com/gergelyturi1  
 #  - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Simple dev runner for Jekyll with live reload + incremental builds.
+# Usage: PORT=4000 HOST=127.0.0.1 bin/dev [extra jekyll serve args]
+
+PORT="${PORT:-4000}"
+HOST="${HOST:-127.0.0.1}"
+
+if ! bundle check >/dev/null 2>&1; then
+  echo "Installing gems (bundle install)..."
+  bundle install
+fi
+
+echo "Starting Jekyll at http://${HOST}:${PORT} (live reload, incremental)"
+exec bundle exec jekyll serve --livereload --incremental -H "${HOST}" -P "${PORT}" "$@"
+

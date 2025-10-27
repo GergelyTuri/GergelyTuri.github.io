@@ -13,7 +13,17 @@ Video embedding: [Jekyll Embed Video](https://github.com/nathancy/jekyll-embed-v
 - Jekyll (last version)
 - Default `jekyll build`
 
-- GitLab-CI config: [`.gitlab-ci.yml`](https://gitlab.com/jekyll-themes/grayscale/blob/master/.gitlab-ci.yml)
-- Gitignore: [`.gitignore`](https://gitlab.com/jekyll-themes/grayscale/blob/master/.gitignore)
-- Jekyll config: [`_config.yml`](https://gitlab.com/jekyll-themes/grayscale/blob/master/_config.yml)
-- Licence: [`Apache`](https://gitlab.com/jekyll-themes/grayscale/blob/master/LICENCE)
+- Gitignore: `.gitignore`
+- Jekyll config: `_config.yml`
+- License: `LICENSE` (Apache 2.0)
+
+## Development
+
+- Requirements: Ruby, Bundler, Jekyll.
+- Install tools: `gem install bundler jekyll`
+- Run locally:
+  - Quick start: `bin/dev` (or on Windows PowerShell: `bin/dev.ps1`)
+  - With Bundler (preferred): `bundle exec jekyll serve`
+  - Without Gemfile: `jekyll serve`
+- Open: http://127.0.0.1:4000/
+- Notes: If you use a custom `baseurl`, pages will be served under `http://127.0.0.1:4000/<baseurl>`.
