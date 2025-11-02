@@ -1,34 +1,61 @@
 ---
 layout: bio
-title: home
+title: Gallery
 ---
 
-<section class="gallery content-section text-center">
-        <div class="embed-container">
-            <iframe src="https://www.youtube.com/embed/ZY0HEN1qOEE" width="700" height="480" frameborder="0"
-                allowfullscreen="">
-            </iframe>
-        </div>
-    </section>
-    <section class="gallery content-section text-center">
-        <div class="embed-container">
-            <iframe src="https://www.youtube.com/embed/Rtwf33oC-WM" width="700" height="480" frameborder="0"
-                allowfullscreen="">
-            </iframe>
-        </div>
-    </section>
-    <section class="gallery content-section text-center">
-        <div class="embed-container">
-            <iframe src="https://www.youtube.com/embed/zrK2Aggp6_0" width="700" height="480" frameborder="0"
-                allowfullscreen="">
-            </iframe>
-        </div>
-    </section>
-    <section class="gallery content-section text-center">
-        <div class="embed-container">
-            <iframe src="https://www.youtube.com/embed/iCfhJT3dYIo" frameborder="0" width="auto" height="400"
-                allowfullscreen="">
-            </iframe>
-        </div>
-    </section>
+<div class="bio-top-gap" aria-hidden="true"></div>
 
+<section class="container bio-section gallery-section">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>Video Links</h2>
+            <p class="gallery-intro">Highlights from the lab, talks, and project demos. Videos open in an embedded
+                player.</p>
+            <div class="gallery-video-grid">
+                <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/ZY0HEN1qOEE" title="Video 1" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/Rtwf33oC-WM" title="Video 2" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/zrK2Aggp6_0" title="Video 3" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/iCfhJT3dYIo" title="Video 4" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container bio-section gallery-section">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>Memory Lane</h2>
+            <p class="gallery-intro">Snapshots from lab outings and milestones. Click any image to view the original
+                resolution.</p>
+            <div class="gallery-memory-grid">
+                {% assign memory_items = site.data.gallery_memories | default: [] %}
+                {% for memory in memory_items %}
+                {% assign caption_text = memory.caption | default: '' | strip %}
+                {% if caption_text == '' %}
+                {% assign caption_text = memory.filename | split:'.' | first | replace:'_', ' ' | replace:'-', ' ' %}
+                {% endif %}
+                {% assign memory_path = '/pages/fun/' | append: memory.filename %}
+                <a class="memory-card" href="{{ memory_path | relative_url }}" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="{{ memory_path | relative_url }}" alt="{{ caption_text }}">
+                    {% if memory.caption and memory.caption != '' %}
+                    <span class="memory-caption">{{ memory.caption }}</span>
+                    {% endif %}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

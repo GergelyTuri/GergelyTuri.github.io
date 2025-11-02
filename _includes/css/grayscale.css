@@ -351,6 +351,87 @@ a:focus {
     color: rgba(230, 240, 245, 0.85);
 }
 
+.gallery-section {
+    margin-bottom: 60px;
+}
+
+.gallery-section h2 {
+    margin-top: 0;
+}
+
+.gallery-intro {
+    font-size: 16px;
+    color: rgba(240, 240, 240, 0.8);
+    margin-bottom: 28px;
+}
+
+.gallery-video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 28px;
+}
+
+.embed-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.gallery-memory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.memory-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    text-decoration: none;
+    color: #f4f9fb;
+}
+
+.memory-card:hover,
+.memory-card:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.55);
+    border-color: rgba(33, 154, 179, 0.8);
+}
+
+.memory-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.memory-caption {
+    padding: 12px 14px;
+    font-size: 14px;
+    line-height: 1.4;
+    background: rgba(0, 0, 0, 0.65);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: left;
+}
+
 .equipment-section {
     width: 100%;
     padding: 50px 0;
