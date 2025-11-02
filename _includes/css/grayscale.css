@@ -428,6 +428,10 @@ body {
     height: 16px;
 }
 
+.bio-top-gap {
+    height: 80px;
+}
+
 .publication-card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
