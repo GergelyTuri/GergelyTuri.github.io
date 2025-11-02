@@ -419,3 +419,85 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.bio-button-gap {
+    height: 24px;
+}
+
+.bio-section-gap {
+    height: 16px;
+}
+
+.publication-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.publication-card {
+    background: linear-gradient(135deg, rgba(33, 154, 179, 0.18), rgba(0, 0, 0, 0.6));
+    border: 1px solid rgba(33, 154, 179, 0.35);
+    border-radius: 8px;
+    padding: 24px 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.publication-title {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #f7f7f7;
+}
+
+.publication-citation {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    color: rgba(240, 240, 240, 0.85);
+}
+
+.publication-footer {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 16px;
+}
+
+.publication-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.publication-tag {
+    background-color: rgba(33, 154, 179, 0.35);
+    color: #effbff;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.publication-link.btn {
+    background-color: rgba(33, 154, 179, 0.6);
+    border-color: rgba(33, 154, 179, 0.9);
+    color: #ffffff;
+}
+
+.publication-link.btn:hover,
+.publication-link.btn:focus {
+    background-color: rgba(33, 154, 179, 0.85);
+    border-color: rgba(33, 154, 179, 0.95);
+    color: #ffffff;
+}
+
+.publication-link.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
