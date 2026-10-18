@@ -13,6 +13,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 *.log
+*.Zone.Identifier
 
 # Ruby/Bundler
 vendor/
